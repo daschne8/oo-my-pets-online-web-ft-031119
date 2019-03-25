@@ -41,7 +41,7 @@ class Owner
     self.pets[:fishes].each {|fish| fish.mood = "happy"}
   end
   def sell_pets
-    all_pets = pets.values
+    all_pets = pets.values.flatten
     all_pets.each {|pet| pet.mood = "nervous"}
   end
 

@@ -7,13 +7,17 @@ class Owner
     @species = species
     @@all << self
   end
-  def say_species
-    puts "I am #{@species}."
-  end
   def self.reset_all
     @@all = []
   end
   def self.all
     @@all
   end
+  def self.count
+    @@all.count
+  end
+  def say_species
+    puts "I am #{@species}."
+  end
+  
 end

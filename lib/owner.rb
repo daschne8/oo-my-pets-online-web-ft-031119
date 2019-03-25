@@ -32,7 +32,7 @@ class Owner
     @pets[:dogs] << dog
   end
   def walk_dogs
-    self.pets[:doges].each_char { |dog| dog.mood = "happy"  }
+    self.pets[:dogs].each_char { |dog| dog.mood = "happy"  }
   end
 
 end

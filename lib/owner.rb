@@ -7,7 +7,7 @@ class Owner
     @species = "human"
     @@all << self
   end
-  def sey_species
+  def say_species
     puts "I am #{@species}."
   end
   def self.reset_all
